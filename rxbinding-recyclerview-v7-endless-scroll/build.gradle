@@ -1,9 +1,28 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.jfrog.bintray'
-apply plugin: 'com.github.dcendents.android-maven'
 
-group = 'com.xmarcusv.rxbinding2.support.v7.widget'
-version = '1.0.0'
+ext {
+    bintrayRepo = 'android'
+    bintrayName = 'rx-recycler-endless-scroll'
+
+    publishedGroupId = 'com.github.xmarcusv'
+    libraryName = 'RxRecyclerEndlessScroll'
+    artifact = 'rx-recycler-endless-scroll'
+
+    libraryDescription = 'RxJava binding endless scroll for RecyclerView'
+
+    siteUrl = 'https://github.com/xmarcusv/RxRecyclerEndlessScroll'
+    gitUrl = 'https://github.com/xmarcusv/RxRecyclerEndlessScroll.git'
+
+    libraryVersion = '1.0.0'
+
+    developerId = 'xmarcusv'
+    developerName = 'Marcus Barcelos'
+    developerEmail = 'xmarcusv@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
 
 android {
     compileSdkVersion 26
@@ -44,3 +63,6 @@ dependencies {
     })
 
 }
+
+apply from: 'https://gist.githubusercontent.com/xmarcusv/b313bc440a058f9ff065f60f00c3b06e/raw/2b7ffbf56405c9ea1f1e5e0d52ee57c1a65344fe/installv1.gradle'
+apply from: 'https://gist.githubusercontent.com/xmarcusv/96cde39692754ccfd97fa178fe15deb6/raw/ffb9f96a75c0b484ab3382cf12bed54b220c98a0/bintrayv1.gradle'
