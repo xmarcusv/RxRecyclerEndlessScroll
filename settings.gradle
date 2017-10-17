@@ -1,1 +1,1 @@
-include ':sample', ':rxbinding-recyclerview-v7-endless-scroll'
+include ':sample', ':rx-recycler-endless-scroll'

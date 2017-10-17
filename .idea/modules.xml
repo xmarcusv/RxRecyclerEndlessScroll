@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/RxRecyclerEndlessScroll.iml" filepath="$PROJECT_DIR$/RxRecyclerEndlessScroll.iml" />
       <module fileurl="file://$PROJECT_DIR$/sample/app.iml" filepath="$PROJECT_DIR$/sample/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/rxbinding-recyclerview-v7-endless-scroll/rxbinding-recyclerview-v7-endless-scroll.iml" filepath="$PROJECT_DIR$/rxbinding-recyclerview-v7-endless-scroll/rxbinding-recyclerview-v7-endless-scroll.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rx-recycler-endless-scroll/rxbinding-recyclerview-v7-endless-scroll.iml" filepath="$PROJECT_DIR$/rx-recycler-endless-scroll/rxbinding-recyclerview-v7-endless-scroll.iml" />
       <module fileurl="file://$PROJECT_DIR$/sample/sample.iml" filepath="$PROJECT_DIR$/sample/sample.iml" />
     </modules>
   </component>
